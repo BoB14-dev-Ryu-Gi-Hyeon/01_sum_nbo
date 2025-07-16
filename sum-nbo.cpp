@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
 
 
 	// 출력
-	printf("1000(0x%08x) + 500(0x%08x) + 200(0x%08x)= 1700(0x%08x)\n",  n1, n2, n3, res);
+	printf("%d(0x%08x) + %d(0x%08x) + %d(0x%08x)= %d(0x%08x)\n", n1, n1, n2, n2, n3, n3, res, res);
 
 	return 0;
 }
